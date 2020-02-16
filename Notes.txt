@@ -1,0 +1,38 @@
+What is Flutter?
+	- A tool that allows you to build native cross-platform apps with one programming language and codebase
+	- You get a real native iOS and Android app that you can distribute
+	- Written in a programming language called Dart
+	- A SDK (Software Development Kit)
+	- Tools to compile your code to native machine code which allows you to develop with ease
+	- A framework / widget library
+	- Re-usable UI building blocks (widgets), utility functions, and packages
+	- Dart is a programming language focused on frontend (mobile apps, web) user interface (UI) development
+	- Developed by Google (both Flutter and Dart)
+	- Object oriented, strongly typed language
+	- Syntax is like a mixture of Javascript, Java, and C#
+
+Flutter Architecture
+	- UI as Code: Build a Widget Tree
+	- No drag & drop program to help build UIs because you do it all within code
+	- Embrace platform differences while being one codebase
+	- Also gives you the ability to detect which device type you're on so you can program around it
+
+How is Flutter / Dart transformed to a Native App?
+	- You have your dart code that uses the Flutter API (the widgets and functions)
+	- Flutter takes the dart code and compiles them into native code for the respective platforms
+	- It does this using the Flutter SDK
+	- This gives us the benefit of the application being a performant app on each device because it truly is running native code
+	- Flutter does NOT use platform primitives
+	- This means that when you use widgets like a button, they are not the equivalent to the native device button
+	- This is because Flutter controls every pixel on the screen so each widget is its own custom implementation
+	- This gives Flutter more control over everything and gives you less platform limitations
+
+Flutter Versions
+	- Flutter versions change frequently because it is being actively worked on by Google
+	- It is an open source project on GitHub
+	- Flutter itself does not change much from version to version as far as the API goes
+
+Setup Flutter
+	- Download Flutter from their website
+	- Unzip the downloaded zip file to somewhere on your machine that you have access
+	- Add the flutter\bin location to your PATH environment variable
